@@ -1,0 +1,5 @@
+[
+  {"id":1,"name":"Master Azhar","title":"Founder & Chief Instructor","imageKey":"trainer-azhar","certifications":["International MMA Champion","Certified Combat Strategist","Elite Fight Coach"]},
+  {"id":2,"name":"A. Rao","title":"Head Coach - Kickboxing","imageKey":"trainer-rao","certifications":["National Kickboxing Champion","Strength & Conditioning Expert"]},
+  {"id":3,"name":"L. Singh","title":"Head Coach - BJJ","imageKey":"trainer-singh","certifications":["Brazilian Jiu-Jitsu Black Belt","Title Fight Specialist"]}
+]

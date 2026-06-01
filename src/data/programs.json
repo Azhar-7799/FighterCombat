@@ -1,0 +1,6 @@
+[
+  {"id":1,"title":"Elite MMA Fusion","description":"Complete MMA system for striking, grappling and championship preparation.","level":"All levels","age":"14+","duration":"90 mins","imageKey":"program-elite-mma"},
+  {"id":2,"title":"Karate Performance System","description":"Powerful karate training built for agility, discipline and international competition.","level":"All levels","age":"10+","duration":"75 mins","imageKey":"program-elite-karate"},
+  {"id":3,"title":"Combat Fitness & Conditioning","description":"Strength, speed and endurance training designed for elite fighters.","level":"All levels","age":"12+","duration":"60 mins","imageKey":"program-combat-fitness"},
+  {"id":4,"title":"Youth Warriors Academy","description":"Junior fighters accelerate skill, confidence and athletic discipline.","level":"All levels","age":"6+","duration":"60 mins","imageKey":"program-youth-wars"}
+]

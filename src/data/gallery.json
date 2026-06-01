@@ -1,0 +1,11 @@
+[
+  {"id":1,"category":"MMA","imageKey":"gallery-mma-1","caption":"MMA performance training"},
+  {"id":2,"category":"Karate","imageKey":"gallery-karate-1","caption":"Karate discipline and power"},
+  {"id":3,"category":"Kickboxing","imageKey":"gallery-kickboxing-1","caption":"Kickboxing striking sessions"},
+  {"id":4,"category":"Muay Thai","imageKey":"gallery-muaythai-1","caption":"Muay Thai clinch work"},
+  {"id":5,"category":"BJJ","imageKey":"gallery-bjj-1","caption":"Ground control and submissions"},
+  {"id":6,"category":"Kids Training","imageKey":"gallery-kids-1","caption":"Junior combat training"},
+  {"id":7,"category":"Championships","imageKey":"gallery-championships-1","caption":"Elite championship highlight"},
+  {"id":8,"category":"Fitness","imageKey":"gallery-fitness-1","caption":"Strength and conditioning"},
+  {"id":9,"category":"Events","imageKey":"gallery-events-1","caption":"Live academy event coverage"}
+]
