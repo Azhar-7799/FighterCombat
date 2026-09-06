@@ -1,5 +1,6 @@
 import React from 'react'
 import Seo from '../components/Seo'
+import imageLibrary from '../constants/imageLibrary'
 
 const timeline = [
   { year: '2010', title: 'Combat roots', detail: 'Master Azhar begins competitive martial arts training and coaching.' },
@@ -17,22 +18,33 @@ export default function About(){
       />
 
       <div className="grid gap-12 lg:grid-cols-[1.25fr_0.75fr]">
-        <div>
+        <div className="space-y-8">
           <span className="text-sm uppercase tracking-[0.4em] text-yellow-400">About FCA</span>
           <h1 className="mt-4 text-4xl font-bold text-white">A global combat sports academy built for champions.</h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">Fighters Combat Academy is led by Master Azhar, an international combat strategist with deep experience in MMA, Karate, Muay Thai, BJJ and competitive fight preparation. Our academy blends world-class coaching with championship-level training systems to build athletes with power, discipline and global confidence.</p>
           <p className="mt-6 text-gray-300">From youth fighters to professional athletes, FCA delivers premium mentorship, modern training facilities, and a performance culture designed for elite outcomes.</p>
+
+          <aside className="overflow-hidden rounded-[2rem] border border-white/10 bg-gray-950 shadow-2xl shadow-black/40">
+            <div className="h-72 bg-gray-900">
+              <img src={imageLibrary['trainer-azhar']} alt="Master Azhar coaching at Fighters Combat Academy" className="h-full w-full object-cover" />
+            </div>
+            <div className="p-8">
+              <p className="text-sm uppercase tracking-[0.4em] text-yellow-400">Meet the founder</p>
+              <h2 className="mt-3 text-2xl font-semibold text-white">Master Azhar</h2>
+              <p className="mt-3 text-gray-400">Building disciplined athletes through precision coaching, elite fight preparation and a championship mindset.</p>
+            </div>
+          </aside>
         </div>
 
         <aside className="rounded-[2rem] border border-white/10 bg-gray-950 p-8 shadow-2xl shadow-black/40">
-          <p className="text-sm uppercase tracking-[0.4em] text-yellow-400">Founder</p>
-          <h2 className="mt-4 text-3xl font-semibold text-white">Master Azhar</h2>
-          <p className="mt-4 text-gray-400">Founder & Chief Instructor with over 16 years of high-performance coaching, international fight camp leadership, and championship-winning training methodology.</p>
-          <div className="mt-8 space-y-4 text-sm text-gray-300">
-            <div><span className="font-semibold text-white">Specialty:</span> Combat sports, MMA strategy, performance conditioning</div>
-            <div><span className="font-semibold text-white">Recognition:</span> International titles, elite coaching awards, media features</div>
-            <div><span className="font-semibold text-white">Philosophy:</span> Discipline, precision, grit and next-level athletic confidence.</div>
-          </div>
+            <p className="text-sm uppercase tracking-[0.4em] text-yellow-400">Founder</p>
+            <h2 className="mt-4 text-3xl font-semibold text-white">Master Azhar</h2>
+            <p className="mt-4 text-gray-400">Founder & Chief Instructor with over 16 years of high-performance coaching, international fight camp leadership, and championship-winning training methodology.</p>
+            <div className="mt-8 space-y-4 text-sm text-gray-300">
+              <div><span className="font-semibold text-white">Specialty:</span> Combat sports, MMA strategy, performance conditioning</div>
+              <div><span className="font-semibold text-white">Recognition:</span> International titles, elite coaching awards, media features</div>
+              <div><span className="font-semibold text-white">Philosophy:</span> Discipline, precision, grit and next-level athletic confidence.</div>
+            </div>
         </aside>
       </div>
 

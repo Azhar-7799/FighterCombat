@@ -11,6 +11,7 @@ import Events from './pages/Events'
 import Testimonials from './pages/Testimonials'
 import Contact from './pages/Contact'
 import Join from './pages/Join'
+import Women from './pages/Women'
 import FAQ from './pages/FAQ'
 import Privacy from './pages/Privacy'
 import Terms from './pages/Terms'
@@ -30,6 +31,7 @@ export default function App(){
         <Route path="testimonials" element={<Testimonials/>} />
         <Route path="contact" element={<Contact/>} />
         <Route path="join" element={<Join/>} />
+        <Route path="women" element={<Women/>} />
         <Route path="faq" element={<FAQ/>} />
         <Route path="privacy" element={<Privacy/>} />
         <Route path="terms" element={<Terms/>} />
