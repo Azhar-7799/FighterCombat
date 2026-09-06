@@ -26,12 +26,20 @@ export default function Trainers(){
       <div className="grid gap-6 md:grid-cols-3">
         {trainers.map(t => (
           <div key={t.id} className="rounded-[2rem] border border-white/10 bg-gray-950 p-6 shadow-2xl shadow-black/30">
-            <div className="h-72 overflow-hidden rounded-[1.75rem] bg-gray-900">
-              <img src={imageLibrary[t.imageKey]} alt={t.name} className="h-full w-full object-cover transition duration-500 hover:scale-105" />
+            <div className="flex h-72 items-center justify-center overflow-hidden rounded-[1.75rem] bg-gray-900">
+              {t.imageKey ? (
+                <img src={imageLibrary[t.imageKey]} alt={t.name} className="h-full w-full object-cover transition duration-500 hover:scale-105" />
+              ) : (
+                <span className="text-6xl font-bold text-yellow-400/80" aria-label={`${t.name} profile placeholder`}>
+                  {t.name.charAt(0)}
+                </span>
+              )}
             </div>
             <h3 className="mt-6 text-2xl font-semibold text-white">{t.name}</h3>
             <p className="mt-2 text-sm uppercase tracking-[0.2em] text-yellow-400">{t.title}</p>
-            <p className="mt-4 text-gray-400">Certifications: {t.certifications.join(', ')}</p>
+            {t.certifications?.length > 0 && (
+              <p className="mt-4 text-gray-400">Certifications: {t.certifications.join(', ')}</p>
+            )}
           </div>
         ))}
       </div>

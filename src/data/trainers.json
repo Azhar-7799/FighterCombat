@@ -1,3 +1,4 @@
 [
-  {"id":1,"name":"Master Azhar","title":"Founder & Chief Instructor","imageKey":"trainer-azhar","certifications":["International MMA Champion","Certified Combat Strategist","Elite Fight Coach"]}
+  {"id":1,"name":"Master Azhar","title":"Founder & Chief Instructor","imageKey":"trainer-azhar","certifications":["International MMA Champion","Certified Combat Strategist","Elite Fight Coach"]},
+  {"id":2,"name":"Rehman","title":"Boxing Coach","certifications":[]}
 ]
